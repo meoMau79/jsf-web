@@ -5,8 +5,8 @@ jQuery(document).ready(function ($) {
   /* TABS --------------------------------- */
   /* Remove if you don't need :) */
 
-$('#featured').orbit({
-	fluid: '16x7',
+/*$('#featured').orbit(  {fluid:'16x'}{
+
 	animation: 'fade',                  // fade, horizontal-slide, vertical-slide, horizontal-push
 	     animationSpeed: 400,                // how fast animtions are
 	     timer: true, 			 // true or false to have the timer
@@ -15,13 +15,20 @@ $('#featured').orbit({
 	     startClockOnMouseOut: false, 	 // if clock should start on MouseOut
 	     startClockOnMouseOutAfter: 1000, 	 // how long after MouseOut should the timer start again
 	     directionalNav: false,		 // manual advancing directional navs
-	     bullets: true
+	     bullets: true,
+		fluid: '4x3'
 	 
-});
+}); */  
 
-$('#Am-living1').click(function() {
+/*$('#Am-living1').click(function() {
       $('#Am-Liv1').reveal();
     });
+
+	$('#Am-living2').click(function() {
+	      $('#Am-Liv2').reveal();
+	    });
+	
+	
  
 	$('#al_1').flashembed("http://web.jasonfaulkner.info/banners/AL/300x250_1/300x250_Womens.swf");
 	$('#al_2').flashembed("http://web.jasonfaulkner.info/banners/AL/300x250_2/300x250_Memories.swf");
@@ -33,6 +40,8 @@ $('#Am-living1').click(function() {
 	$('#hiv_3').flashembed("http://web.jasonfaulkner.info/banners/HIV_FREE/germ_250x250/250x250.swf");
 	$('#hiv_4').flashembed("http://web.jasonfaulkner.info/banners/HIV_FREE/italian_300x250/300x250.swf");
 	$('#hiv_5').flashembed("http://web.jasonfaulkner.info/banners/HIV_FREE/spanish_728x90/728x90.swf");
+
+*/
 
 
   function activateTab($tab) {
