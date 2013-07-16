@@ -23,6 +23,8 @@ body{background: none; }
 header{ margin-top:35px;}
 
 h1,h2,h3,h4{font-weight:200;}
+.info{display:none;}
+.infofuzz{ position:absolute; margin-left:470px; margin-top:-70px; }
 
 ul.button-group li{ 
 	margin: 0 3px; padding: 9px; background-color: #ff9; 
@@ -38,13 +40,8 @@ ul.button-group li{
 	
 	}
 .img-lift{margin:15px; }
-.row { margin-bottom:20px; }
 
 .hi-there{color:#222;}
-
-
-#al_1 {width:300px; height:250px; }
-#al_2{width:350px; height: 300px; }
 
 
 /* -----------------------------------------

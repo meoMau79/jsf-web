@@ -2,72 +2,43 @@ jQuery(document).ready(function ($) {
 
   /* Use this js doc for all application specific JS */
 
-  /* TABS --------------------------------- */
-  /* Remove if you don't need :) */
-
-/*$('#featured').orbit(  {fluid:'16x'}{
-
-	animation: 'fade',                  // fade, horizontal-slide, vertical-slide, horizontal-push
-	     animationSpeed: 400,                // how fast animtions are
-	     timer: true, 			 // true or false to have the timer
-	     advanceSpeed: 5000, 		 // if timer is enabled, time between transitions 
-	     pauseOnHover: false, 		 // if you hover pauses the slider
-	     startClockOnMouseOut: false, 	 // if clock should start on MouseOut
-	     startClockOnMouseOutAfter: 1000, 	 // how long after MouseOut should the timer start again
-	     directionalNav: false,		 // manual advancing directional navs
-	     bullets: true,
-		fluid: '4x3'
-	 
-}); */  
-
-/*$('#Am-living1').click(function() {
-      $('#Am-Liv1').reveal();
-    });
-
-	$('#Am-living2').click(function() {
-	      $('#Am-Liv2').reveal();
-	    });
-	
-	
  
-	$('#al_1').flashembed("http://web.jasonfaulkner.info/banners/AL/300x250_1/300x250_Womens.swf");
-	$('#al_2').flashembed("http://web.jasonfaulkner.info/banners/AL/300x250_2/300x250_Memories.swf");
-	$('#al_3').flashembed("http://web.jasonfaulkner.info/banners/AL/300x600_1/300x600_JOY.swf");
-	$('#al_4').flashembed("http://web.jasonfaulkner.info/banners/AL/300x600_2/300x600_Wishes.swf");
-
-	$('#hiv_1').flashembed("http://web.jasonfaulkner.info/banners/HIV_FREE/english_120x600/120x600.swf");
-	$('#hiv_2').flashembed("http://web.jasonfaulkner.info/banners/HIV_FREE/french_160x600/160x600.swf");
-	$('#hiv_3').flashembed("http://web.jasonfaulkner.info/banners/HIV_FREE/germ_250x250/250x250.swf");
-	$('#hiv_4').flashembed("http://web.jasonfaulkner.info/banners/HIV_FREE/italian_300x250/300x250.swf");
-	$('#hiv_5').flashembed("http://web.jasonfaulkner.info/banners/HIV_FREE/spanish_728x90/728x90.swf");
-
-*/
-
-
-  function activateTab($tab) {
-    var $activeTab = $tab.closest('dl').find('dd.active'),
-        contentLocation = $tab.children('a').attr("href") + 'Tab';
-
-    // Strip off the current url that IE adds
-    contentLocation = contentLocation.replace(/^.+#/, '#');
-
-    //Make Tab Active
-    $activeTab.removeClass('active');
-    $tab.addClass('active');
-
-    //Show Tab Content
-    $(contentLocation).closest('.tabs-content').children('li').removeClass('active').hide();
-    $(contentLocation).css('display', 'block').addClass('active');
+$('.info').hide();
+/*
+$(".infofuzz").rotate({bind:{
+      mouseover: function(){
+//	alert('clicked');
+    $(this).rotate({
+	duration: 5000,
+            angle: 0, 
+            animateTo:180
+          })
+      }
   }
+});*/
 
-  $('dl.tabs dd a').on('click.fndtn', function (event) {
-    activateTab($(this).parent('dd'));
-  });
 
-  if (window.location.hash) {
-    activateTab($('a[href="' + window.location.hash + '"]').parent('dd'));
-    $.foundation.customForms.appendCustomMarkup();
-  }
+
+$('.portfolio').on("mouseover", function (){
+$(this).closest('.portfolio-item').find('.infofuzz').rotate({
+	duration:8000,
+	angle: 0,
+	animateTo: 300
+})
+
+}).on('click', function (){
+	
+$(this).closest('.portfolio-item').find('.info').slideToggle();
+	
+}).on('mouseleave', function(){
+	
+	
+$(this).closest('.portfolio-item').find('.info').slideToggle();
+});
+
+
+
+
 
   /* ALERT BOXES ------------ */
   $(".alert-box").delegate("a.close", "click", function(event) {
