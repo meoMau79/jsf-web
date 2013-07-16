@@ -4,6 +4,8 @@ jQuery(document).ready(function ($) {
 
  
 $('.info').hide();
+$('.infofuzz').hide();
+
 /*
 $(".infofuzz").rotate({bind:{
       mouseover: function(){
@@ -20,6 +22,9 @@ $(".infofuzz").rotate({bind:{
 
 
 $('.portfolio').on("mouseover", function (){
+
+	$(this).closest('.infofuzz').fadeToggle();
+	
 $(this).closest('.portfolio-item').find('.infofuzz').rotate({
 	duration:8000,
 	angle: 0,
@@ -31,9 +36,8 @@ $(this).closest('.portfolio-item').find('.infofuzz').rotate({
 $(this).closest('.portfolio-item').find('.info').slideToggle();
 	
 }).on('mouseleave', function(){
-	
-	
 $(this).closest('.portfolio-item').find('.info').slideToggle();
+$('.infofuzz').fadeToggle();
 });
 
 
