@@ -5,7 +5,7 @@ jQuery(document).ready(function ($) {
 
 var $container = $('#container');
 
-$container.imagesLoaded(funciton(){
+$container.imagesLoaded(function(){
 	
 	$container.isotope({ layoutMode:'cellsByRow'});
 	
