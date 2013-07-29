@@ -39,28 +39,18 @@ ul.button-group li{
 	-webkit-border-bottom-left-radius: 0;
 	
 	}
-.img-lift{margin:15px; }
-.hi-there{color:#222;}
 
-
-/* -----------------------------------------
-   Page Name 2
------------------------------------------ */
-
-/* Mobile Grid and Overrides ---------------------- */
-@media only screen and (max-width: 767px) {
+.portfolio{ position:relative;}
 	
-div.orbit-wrapper div.timer {
-  width: 40px;
-  height: 40px;
-  overflow: hidden;
-  position: absolute;
-  top: 10px;
-  right: 10px;
-  opacity: .6;
-  cursor: pointer;
-  z-index: 31;
-}
+.cover {
+	    background-color: yellow;
+		    display: none;
+		    height: 360px;
+		    left: 0;
+		    padding: 15px;
+		    position: absolute;
+		    top: 0;
+		    width: 540px;
+	}
 
-}
-
+	
