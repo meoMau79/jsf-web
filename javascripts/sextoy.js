@@ -4,6 +4,7 @@ jQuery(document).ready(function ($) {
 
 
 var $container = $('#container');
+$container.isotope({ layoutMode:'cellsByRow'});
 
 $('#filters a').click(function(){
 	

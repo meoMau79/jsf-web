@@ -23,9 +23,11 @@ body{background: none; }
 header{ margin-top:35px;}
 
 h1,h2,h3,h4{font-weight:200;}
+header h2{color:#333;}
 .info{display:none;}
 .infofuzz{ position:absolute; margin-left:470px; margin-top:-70px; width: 90px; height:90px;}
 
+#filters li { float left; list-style:none; }
 ul.button-group li{ 
 	margin: 0 3px; padding: 9px; /*background-color: #ff9; */
 	-moz-border-radius-topleft: 0px;
@@ -57,9 +59,9 @@ ul.button-group li{
 	
 	footer {
 	 background: none repeat scroll 0 0 #000000;
-	    bottom: 0;
+	   /* bottom: 0;
 	    left: 0;
-	    position: fixed;
+	    position: fixed;*/
 	width:100%;
 	}
 

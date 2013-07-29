@@ -5,7 +5,7 @@
 .button {
   width: auto;
   background: #2ba6cb;
-  border: 1px solid #1e728c;
+  /*border: 1px solid #1e728c;*/
   -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
   -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
   box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
@@ -77,18 +77,18 @@
 }
 /* line 21, ../../../../.rvm/gems/ruby-1.9.2-p290@TopCat/gems/zurb-foundation-3.0.5/stylesheets/foundation/buttons.scss */
 .button.primary {
-  background-color: #2ba6cb;
-  border: 1px solid #1e728c;
+  background-color: #ff57ca;
+ /* border: 1px solid #1e728c;*/
 }
 /* line 22, ../../../../.rvm/gems/ruby-1.9.2-p290@TopCat/gems/zurb-foundation-3.0.5/stylesheets/foundation/buttons.scss */
 .button.primary:hover {
-  background-color: #2284a1;
+  background-color: #ff57ca;
 }
 /* line 23, ../../../../.rvm/gems/ruby-1.9.2-p290@TopCat/gems/zurb-foundation-3.0.5/stylesheets/foundation/buttons.scss */
 .button.primary:focus {
-  -webkit-box-shadow: 0 0 4px #2ba6cb, 0 1px 0 rgba(255, 255, 255, 0.5) inset;
-  -moz-box-shadow: 0 0 4px #2ba6cb, 0 1px 0 rgba(255, 255, 255, 0.5) inset;
-  box-shadow: 0 0 4px #2ba6cb, 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+  -webkit-box-shadow: 0 0 4px #ff57ca, 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+  -moz-box-shadow: 0 0 4px #ff57ca, 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+  box-shadow: 0 0 4px #ff57ca, 0 1px 0 rgba(255, 255, 255, 0.5) inset;
 }
 /* line 25, ../../../../.rvm/gems/ruby-1.9.2-p290@TopCat/gems/zurb-foundation-3.0.5/stylesheets/foundation/buttons.scss */
 .button.success {
