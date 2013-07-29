@@ -1,0 +1,166 @@
+
+<div class="content row">	
+		<div class="seven columns">		
+				<img class="img-lift " src="images/work/hughesnet.jpg" alt="Hughes Net">
+						</div>
+
+		<div class="five columns">
+								<h3>Global Works</h3>
+								<h4>Role: Front End Developer</h4>
+								<code>html/css, jquery, rails dev environment, coffeeScript/slim/less, x-browser debugging</code>
+								<p>Working as a Front End Developer at Global Works, I had the opportunity to help on a wide variety of projects.  Researching creative for mobile based Augmented Reality marketing, debugging x-browser/ie8 issues, working in Rails, and trouble shooting jquery issues.  Clients: Kendall-Jackson, HughesNet, Believe Out Loud.</p>
+
+			</div>	
+			
+	</div>
+					
+					
+								<div class="content row">	
+									<div class="seven columns">		
+										<img class="img-lift " src="images/work/cadet.jpg" alt="Cadet">
+									</div>
+
+									<div class="five columns">
+											<h3>cadetusa.com</h3>
+											<h4>Role: Designer &amp; Front End Developer</h4>
+											<code>html, css, jquery, Zurb Foundation</code>
+												<p>This is a unique landing page for Cadet, a new clothing line based in Bushwick, Brooklyn.  We're currently at phase one with building out their online presence.  Phase two will include adding a look book.  Phase three will include online retail. This is an on-going freelance relationship.</p>
+												<h4><a href="http://cadetusa.com" target="_blank" class="nice radius blue button">cadetusa.com</a></h4>
+									</div>	
+									</div>
+									
+										<div class="content row">	
+											<div class="seven columns">		
+												<img class="img-lift " src="images/work/howardthinks.jpg" alt="Howard Thinks">
+											</div>
+
+											<div class="five columns">
+													<h3>howardthinks.com</h3>
+													<h4>Role: Designer &amp; Front End Developer</h4>
+													<code>html5 Boilerplate, jquery</code>
+													<p>An online portfolio for an art director. </p>
+														<h4><a href="http://howardthinks.com" target="_blank" class="nice radius blue button">howardthinks.com</a></h4>
+											</div>	
+											</div>
+
+
+
+
+	<div class="content row">	
+		<div class="seven columns">		
+			<img class="img-lift " src="images/work/urbanrustic.jpg" alt="Urban Rustic">
+		</div>
+
+		<div class="five columns">
+				<h3>urbanrusticnyc.com</h3>
+				<h4>Role: Designer &amp; Front End Developer</h4>
+				<code>Wordpress with custom template.</code>
+					<p>Overhaul of www.urbanrusticnyc.com. I re-designed the in-store menu boards as well as their delivery menu.  This is an ongoing freelance relationship.  </p>
+						<h4><a href="http://urbanrusticnyc.com" target="_blank" class="nice radius blue button">urbanrusticnyc.com</a></h4>
+						
+		</div>	
+		</div>										
+
+				<div class="content row">	
+					<div class="seven columns">		
+						<img class="img-lift " src="images/work/lodge.jpg" alt="Lodge">
+					</div>
+
+					<div class="five columns">
+							<h3>lodgenyc.com</h3>
+							<h4>Role: Designer &amp; Front End Developer</h4>
+							<code>html5 Biolerplate, jquery</code>
+								<p>An awesome restaurant located in the heart of Williamsburg, Brooklyn.
+									<h4><a href="http://lodgenyc.com" target="_blank" class="nice radius blue button">lodgenyc.com</a></h4>
+
+					</div>	
+					</div>
+					
+
+
+								<div class="content row">	
+									<div class="seven columns">		
+										<img class="img-lift " src="images/work/ashford.jpg" alt="Ashford">
+									</div>
+
+									<div class="five columns">
+											<h3>ashford.com</h3>
+											<h4>Front End Developer</h4>
+											<code>html5, css,  jquery</code>
+											<p>This project was an overhaul of the pre-existing ashford.com website, where my sole purpose was to re-build all the html from finalized photoshop files.  I set up and customized a couple online stores for ashford as well.  This was a three month contract.</p>
+									<h4><a href="http://ashford.com" target="_blank" class="nice radius blue button">ashford.com</a></h4>
+									</div>	
+									</div>
+
+											<div class="content row">	
+												<div class="seven columns">		
+													<img class="img-lift " src="images/work/grooveshark_corona.jpg" alt="Grooveshark">
+												</div>
+
+												<div class="five columns">
+														<h3>grooveshark.com</h3>
+														<h4>Senior Flash Developer</h4>
+														<code>flash, actionscript3</code>
+														
+														<p>Working remotely for Grooveshark, a music sharing service based in Gainesville, Florida, I crafted a deluxe Flash based template to use as an advertising theme.  The template scales intelligently to any browser size. I was given a finalized design </p>
+														<h4><a href="http://web.jasonfaulkner.info/grooveshark/" target="_blank" class="nice radius blue button">See Example</a></h4>
+														
+														
+															</div>	
+												</div>
+
+
+										
+<div class="content row">
+
+<div class="seven columns">		
+<img class="img-lift " src="images/work/americanliving.png" alt="am living">
+</div>
+
+<div class="five columns">
+
+<h3>American Living banners</h3>
+<h4>Role: Senior Flash Developer</h4>
+<code>flash, actionscript 2 &amp; 3, flash video</code>
+<p>Working as a Flash Developer and Designer, I collaborated with a team at <a href="http://exitcreativecompany.com/" title="">Exit Creative</a> to create a campaign of rich media holiday banners for a new brand called American Living by Ralph Lauren. We started from scratch with storyboards and client reviews, then moved into prototyping and production.</p>
+<a href="#" id="Am-living1" class="button alert nice" data-reveal-id="Am-liv1">300 x 250</a>
+<a href="#" id="Am-living2" class="button alert nice" data-reveal-id="Am-liv2">300 x 250</a>
+
+</div>
+
+</div>
+
+
+
+<div class="content row">
+
+<div class="seven columns">		
+<img class="img-lift " src="images/work/hivfree.png" alt="hivfree">
+</div>
+
+<div class="five columns">
+
+<h3>The Global Fund banners</h3>
+<h4>Role: Senior Flash Developer</h4>
+<code>flash, actionscript 2 &amp; 3</code>
+<p>Working as a Flash Developer and Designer, I collaborated with a team at <a href="http://exitcreativecompany.com/" title="">Exit Creative</a> to create a campaign of rich media holiday banners for a new brand called American Living by Ralph Lauren. We started from scratch with storyboards and client reviews, then moved into prototyping and production.</p>
+
+</div>
+</div>					
+
+<div class="content row">
+
+<div class="seven columns">		
+<img class="img-lift " src="images/work/landrover.jpg" alt="landrover">
+</div>
+
+<div class="five columns">
+
+<h3>Landrover specwork</h3>
+<h4>Role: Senior Flash Developer</h4>
+<code>flash actioscript3</code>
+<p>While freelancing at YnR, I collaborated with a cool art director/copywriter duo in producing this living sketch for their concept.</p>
+<h4><a href="http://web.jasonfaulkner.info/landrover/" target="_blank" class="nice radius blue button">See Example</a></h4>
+
+</div>
+</div>
